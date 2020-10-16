@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  background-color: #eee;
+  color: #333;
+  width: 98%;
+  margin: auto;
+  margin-top: 1.5em;
+  border-radius: 0.3em;
+}
+
+header {
+  /*border: 1px solid black;*/
+  text-align: center;
+  padding-top: 2.7em;
+  line-height: 3em;
+  color: #333;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bolder;
+  color: #333;
+}
+
+.image-container {
+  /*border: 1px solid black;*/
+  width: 90%;
+  margin: auto;
+  padding: 2em 2em 0 2em;
+  background-color: white;
+}
+
+.image-div {
+  /*border: 1px solid red;*/
+  width: 85%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  padding: 1em 0;
+}
+
+.main-div {
+  /*border: 1px solid black;*/
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 3em;
+}
+
+@media (max-width: 1000px) {
+  .main-div {
+    width: 70%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-div {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-div {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+h2 {
+  font-size: 120%;
+  text-align: center;
+}
+
+ul {
+  line-height: 2em;
+  padding: 2em;
+  font-size: 95%;
+}
+
+@media (max-width: 800px) {
+  ul {
+    line-height: 1.5em;
+  }
+}
+
+li {
+  padding: 0.5em;
+}
+
+blockquote {
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 4em;
+  font-weight: 800;
+  font-size: 120%;
+}
